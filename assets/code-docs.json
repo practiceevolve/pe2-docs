@@ -1,0 +1,2690 @@
+{
+    "features": [
+        {
+            "id": "activities",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\activities-api\\src\\lib\\activities.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/activities.png"
+            ]
+        },
+        {
+            "id": "billingRun",
+            "usingSidePanelKey": false,
+            "usingFeatureState": false,
+            "path": "libs\\invoices-api\\src\\lib\\+state\\billing-run.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/billingRun.png"
+            ]
+        },
+        {
+            "id": "patchDetails",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\admin\\data-access-patch-detail\\src\\lib\\data-access-patch-detail.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.AllPermissions",
+            "footerActions": [
+                {
+                    "title": "patchDetails.footerActions.save",
+                    "peCyId": "patch-detail-apply"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/patchDetails.png"
+            ]
+        },
+        {
+            "id": "patches",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\admin\\data-access-patches\\src\\lib\\data-access-patches.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.AllPermissions",
+            "footerActions": [
+                {
+                    "title": "patches.footerActions.new",
+                    "peCyId": "patches-new-patch"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/patches.png"
+            ]
+        },
+        {
+            "id": "approvals",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\approvals\\data-access-approvals\\src\\lib\\data-access-approvals.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "title": "Approve Selected"
+                },
+                {
+                    "title": "Cancel Selected"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/approvals.png"
+            ]
+        },
+        {
+            "id": "auditDiff",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\audits\\data-access-audit-diff\\src\\lib\\data-access-audit-diff.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/auditDiff.png"
+            ]
+        },
+        {
+            "id": "abaView",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\cashbook\\data-access-aba-view\\src\\lib\\data-access-aba-view.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/abaView.png"
+            ]
+        },
+        {
+            "id": "bankEntries",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\cashbook\\data-access-bank-entries\\src\\lib\\data-access-bank-entries.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/bankEntries.png"
+            ]
+        },
+        {
+            "id": "bankEntryDetails",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\cashbook\\data-access-bank-entry-details\\src\\lib\\data-access-bank-entry-details.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/bankEntryDetails.png"
+            ]
+        },
+        {
+            "id": "cashbookEntries",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\cashbook\\data-access-cashbook-entries\\src\\lib\\data-access-cashbook-entries.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "title": "Post Payment"
+                },
+                {
+                    "title": "Post Receipt"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/cashbookEntries.png"
+            ]
+        },
+        {
+            "id": "deposit",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\cashbook\\data-access-deposit\\src\\lib\\data-access-deposit.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/deposit.png"
+            ]
+        },
+        {
+            "id": "depositHistory",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\cashbook\\data-access-deposit-history\\src\\lib\\data-access-deposit-history.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/depositHistory.png"
+            ]
+        },
+        {
+            "id": "memo",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\cashbook\\data-access-memo\\src\\lib\\data-access-memo.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/memo.png"
+            ]
+        },
+        {
+            "id": "paymentDetails",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\cashbook\\data-access-payment-details\\src\\lib\\data-access-payment-details.state.ts",
+            "guideId": "29021",
+            "permissions": null,
+            "footerActions": [
+                {
+                    "peCyId": "payment-details-add",
+                    "title": "Add"
+                },
+                {
+                    "peCyId": "payment-details-add-anticipated",
+                    "title": null
+                },
+                {
+                    "peCyId": "payment-details-add-purchases",
+                    "title": null
+                },
+                {
+                    "peCyId": "payment-details-add-line",
+                    "title": "Line Item"
+                },
+                {
+                    "peCyId": "payment-details-add-matter-credits",
+                    "title": "Matter Credit Funds"
+                },
+                {
+                    "peCyId": "payment-details-add-disbursement",
+                    "title": "Disbursment"
+                },
+                {
+                    "peCyId": "payment-details-prepay",
+                    "title": "Prepay"
+                },
+                {
+                    "peCyId": "payment-details-remove-selected",
+                    "title": "Remove Selected"
+                },
+                {
+                    "peCyId": "payment-details-tax-inclusive",
+                    "title": "Tax Inclusive"
+                },
+                {
+                    "title": "Notify"
+                },
+                {
+                    "peCyId": "payment-details-post-and-new",
+                    "title": "Post and New"
+                },
+                {
+                    "peCyId": "payment-details-post",
+                    "title": "Post"
+                }
+            ],
+            "quickActions": [
+                {
+                    "peCyId": "payment-quick-actions-create-template",
+                    "title": "Create Template"
+                },
+                {
+                    "peCyId": "payment-quick-actions-apply-template",
+                    "title": "Apply Template"
+                },
+                {
+                    "peCyId": "payment-quick-actions-add-memo",
+                    "title": "Add Memo"
+                },
+                {
+                    "peCyId": "payment-quick-actions-add-attachment",
+                    "title": "Add Attachment"
+                }
+            ],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/paymentDetails.png"
+            ]
+        },
+        {
+            "id": "paymentRequest",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\cashbook\\data-access-payment-request\\src\\lib\\data-access-payment-request.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/paymentRequest.png"
+            ]
+        },
+        {
+            "id": "receiptDetails",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\cashbook\\data-access-receipt-details\\src\\lib\\data-access-receipt-details.state.ts",
+            "guideId": "29020",
+            "permissions": null,
+            "footerActions": [
+                {
+                    "peCyId": "receipt-details-add-line",
+                    "title": "Add Line Item"
+                },
+                {
+                    "peCyId": "receipt-details-remove-selected",
+                    "title": "Remove Selected"
+                },
+                {
+                    "peCyId": "receipt-details-tax-inclusive",
+                    "title": "Tax Inclusive"
+                },
+                {
+                    "title": "Notify",
+                    "peCyId": "receipt-details-notify"
+                },
+                {
+                    "title": "Post and New"
+                },
+                {
+                    "peCyId": "receipt-details-post",
+                    "title": "Post"
+                }
+            ],
+            "quickActions": [
+                {
+                    "peCyId": "receipt-quick-actions-create-template",
+                    "title": "Create Template"
+                },
+                {
+                    "peCyId": "receipt-quick-actions-apply-template",
+                    "title": "Apply Template"
+                },
+                {
+                    "peCyId": "receipt-quick-actions-add-memo",
+                    "title": "Add Memo"
+                },
+                {
+                    "peCyId": "receipt-quick-actions-add-attachment",
+                    "title": "Add Attachment"
+                }
+            ],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/receiptDetails.png"
+            ]
+        },
+        {
+            "id": "reconciliation",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\cashbook\\data-access-reconciliation\\src\\lib\\data-access-reconciliation.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "peCyId": "reconciliation-unallocated-entries",
+                    "title": "reconciliation.footerActions.unallocated"
+                },
+                {
+                    "peCyId": "reconciliation-payment",
+                    "title": "reconciliation.footerActions.postPayment"
+                },
+                {
+                    "peCyId": "reconciliation-receipt",
+                    "title": "reconciliation.footerActions.postReceipt"
+                },
+                {
+                    "peCyId": "reconciliation-deposit",
+                    "title": "reconciliation.footerActions.deposit"
+                },
+                {
+                    "peCyId": "reconciliation-print",
+                    "title": "reconciliation.footerActions.print"
+                },
+                {
+                    "peCyId": "reconcile",
+                    "title": "reconciliation.footerActions.reconcile"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/reconciliation.png"
+            ]
+        },
+        {
+            "id": "reconciliationHistory",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\cashbook\\data-access-reconciliation-history\\src\\lib\\data-access-reconciliation-history.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/reconciliationHistory.png"
+            ]
+        },
+        {
+            "id": "statutoryDeposit",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\cashbook\\data-access-statutory-deposit\\src\\lib\\data-access-statutory-deposit.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/statutoryDeposit.png"
+            ]
+        },
+        {
+            "id": "withdraw",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\cashbook\\data-access-withdraw\\src\\lib\\data-access-withdraw.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "peCyId": "withdraw-withdraw",
+                    "title": "withdraw.footerActions.withdraw"
+                }
+            ],
+            "quickActions": [
+                {
+                    "peCyId": "withdraw-account-settings",
+                    "title": "withdraw.quickActions.accountSettings"
+                }
+            ],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/withdraw.png"
+            ]
+        },
+        {
+            "id": "withdrawHistory",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\cashbook\\data-access-withdraw-history\\src\\lib\\data-access-withdraw-history.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/withdrawHistory.png"
+            ]
+        },
+        {
+            "id": "debug",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\debug\\data-access-debug\\src\\lib\\data-access-debug.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [
+                {
+                    "title": "Screen Manager"
+                }
+            ],
+            "actionCards": [],
+            "screenshots": []
+        },
+        {
+            "id": "signalrRequestDetails",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\debug\\data-access-signalr-request-details\\src\\lib\\data-access-signalr-request-details.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "title": "Send"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/signalrRequestDetails.png"
+            ]
+        },
+        {
+            "id": "disbursementClientPayment",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\disbursements\\data-access-client-payment\\src\\lib\\data-access-client-payment.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/disbursementClientPayment.png"
+            ]
+        },
+        {
+            "id": "CreditDisbursement",
+            "usingSidePanelKey": false,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\disbursements\\data-access-credit-disbursement\\src\\lib\\data-access-credit-disbursement.state.ts",
+            "guideId": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": []
+        },
+        {
+            "id": "disbursementSetup",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\disbursements\\data-access-disbursement-detail\\src\\lib\\data-access-disbursement-detail.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/disbursementSetup.png"
+            ]
+        },
+        {
+            "id": "disbursements",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\disbursements\\data-access-disbursements\\src\\lib\\data-access-disbursements.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "peCyId": "disbursements-new-disbursements",
+                    "title": "New Disbursement"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/disbursements.png"
+            ]
+        },
+        {
+            "id": "createFolder",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\documents\\data-access-document-create-folder\\src\\lib\\data-access-document-create-folder.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/createFolder.png"
+            ]
+        },
+        {
+            "id": "documentDetails",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\documents\\data-access-document-details\\src\\lib\\data-access-document-details.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/documentDetails.png"
+            ]
+        },
+        {
+            "id": "documentSettings",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\documents\\data-access-document-settings\\src\\lib\\data-access-document-settings.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/documentSettings.png"
+            ]
+        },
+        {
+            "id": "documentVersions",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\documents\\data-access-document-version-list\\src\\lib\\data-access-document-version-list.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/documentVersions.png"
+            ]
+        },
+        {
+            "id": "documentExplorer",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\documents\\data-access-documents-explorer\\src\\lib\\data-access-documents-explorer.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/documentExplorer.png"
+            ]
+        },
+        {
+            "id": "composeEmail",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\email\\data-access-compose-email\\src\\lib\\data-access-compose-email.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/composeEmail.png"
+            ]
+        },
+        {
+            "id": "client",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\entities\\data-access-client-details\\src\\lib\\data-access-client-details.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/client.png"
+            ]
+        },
+        {
+            "id": "employee",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\entities\\data-access-employee-details\\src\\lib\\data-access-employee-details.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/employee.png"
+            ]
+        },
+        {
+            "id": "employeeWorkHours",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\entities\\data-access-employee-work-hours\\src\\lib\\data-access-employee-work-hours.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.UpdateEmployeeWorkHours",
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/employeeWorkHours.png"
+            ]
+        },
+        {
+            "id": "entities",
+            "usingSidePanelKey": false,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\entities\\data-access-entities\\src\\lib\\data-access-entities.state.ts",
+            "guideId": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": []
+        },
+        {
+            "id": "entity",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\entities\\data-access-entity-details\\src\\lib\\data-access-entity-details.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "peCyId": "entity-dashboard-delete-entity",
+                    "title": "Delete Entity"
+                },
+                {
+                    "peCyId": "entity-dashboard-make-client",
+                    "title": "Make Client"
+                },
+                {
+                    "peCyId": "entity-dashboard-make-employee",
+                    "title": "Make Employee"
+                },
+                {
+                    "peCyId": "entity-dashboard-make-supplier",
+                    "title": "Make Supplier"
+                }
+            ],
+            "quickActions": [
+                {
+                    "peCyId": "entity-update-entity",
+                    "title": "entityDashboard.quickActions.UpdateEntity"
+                },
+                {
+                    "peCyId": "entity-update-client",
+                    "title": "entityDashboard.quickActions.updateClient"
+                },
+                {
+                    "peCyId": "entity-update-employee",
+                    "title": "entityDashboard.quickActions.updateEmployee"
+                },
+                {
+                    "peCyId": "entity-update-supplier",
+                    "title": "entityDashboard.quickActions.updateSupplier"
+                },
+                {
+                    "peCyId": "entity-update-permissions",
+                    "title": "entityDashboard.quickActions.permissions"
+                },
+                {
+                    "peCyId": "entity-new-matter",
+                    "title": "entityDashboard.quickActions.newMatter"
+                },
+                {
+                    "peCyId": "entity-view-matters",
+                    "title": "entityDashboard.quickActions.viewMatters"
+                },
+                {
+                    "peCyId": "entity-issue-supplier-credit",
+                    "title": "entityDashboard.quickActions.issueSupplierCredit"
+                },
+                {
+                    "peCyId": "entity-view-purchases",
+                    "title": "entityDashboard.quickActions.viewPurchases"
+                },
+                {
+                    "peCyId": "entity-view-supplier-ledger",
+                    "title": "entityDashboard.quickActions.viewSupplierLedger"
+                },
+                {}
+            ],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/entity.png"
+            ]
+        },
+        {
+            "id": "entitySetup",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\entities\\data-access-entity-setup\\src\\lib\\data-access-entity-setup.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": {
+                "title": "Verify Entity"
+            },
+            "screenshots": [
+                "./assets/images/core.spec.ts/entitySetup.png"
+            ]
+        },
+        {
+            "id": "supplier",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\entities\\data-access-supplier-details\\src\\lib\\data-access-supplier-details.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/supplier.png"
+            ]
+        },
+        {
+            "id": null,
+            "usingSidePanelKey": false,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\filter\\data-access-ngxs-filter\\src\\lib\\filter.state.ts",
+            "guideId": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": []
+        },
+        {
+            "usingSidePanelKey": false,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\firm-sequences\\data-access-firm-sequences\\src\\lib\\data-access-firm-sequences.state.ts",
+            "guideId": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": []
+        },
+        {
+            "id": "iManageSettings",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\imanage\\data-access-imanage-settings\\src\\lib\\data-access-imanage-settings.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/iManageSettings.png"
+            ]
+        },
+        {
+            "id": "integrations",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\integrations\\data-access-integrations\\src\\lib\\data-access-integrations.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/integrations.png"
+            ]
+        },
+        {
+            "id": "screenManager",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\integrations\\data-access-screen-manager\\src\\lib\\data-access-screen-manager.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": []
+        },
+        {
+            "id": "invoiceDashboard",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\invoices\\data-access-invoice-dashboard\\src\\lib\\data-access-invoice-dashboard.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/invoiceDashboard.png"
+            ]
+        },
+        {
+            "id": "invoiceSetup",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\invoices\\data-access-invoice-detail\\src\\lib\\data-access-invoice-detail.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/invoiceSetup.png"
+            ]
+        },
+        {
+            "id": "invoiceItems",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\invoices\\data-access-invoice-items\\src\\lib\\data-access-invoice-items.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": []
+        },
+        {
+            "id": "invoices",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\invoices\\data-access-invoices\\src\\lib\\data-access-invoices.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "title": "invoices.footerActions.recordReceipt"
+                },
+                {
+                    "title": "invoices.footerActions.finalise"
+                },
+                {
+                    "title": "invoices.footerActions.finalisePending"
+                },
+                {
+                    "title": "invoices.footerActions.unfinalise"
+                },
+                {
+                    "title": "invoices.footerActions.writeOff"
+                },
+                {
+                    "title": "invoices.footerActions.cancel"
+                },
+                {
+                    "title": "invoices.footerActions.addInvoice",
+                    "peCyId": "add-invoice"
+                },
+                {
+                    "title": "invoices.footerActions.selectInvoices"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/invoices.png"
+            ]
+        },
+        {
+            "id": "invoicePayWithCredit",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\invoices\\data-access-pay-with-credit\\src\\lib\\data-access-pay-with-credit.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "peCyId": "pay-with-credit-save",
+                    "title": "Save"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/invoicePayWithCredit.png"
+            ]
+        },
+        {
+            "id": "writeOffInvoice",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\invoices\\data-access-write-off-invoice\\src\\lib\\data-access-write-off-invoice.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/writeOffInvoice.png"
+            ]
+        },
+        {
+            "id": "AccountDetail",
+            "usingSidePanelKey": false,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\journaling\\data-access-account-detail\\src\\lib\\data-access-account-detail.state.ts",
+            "guideId": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": []
+        },
+        {
+            "id": "accounts",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\journaling\\data-access-accounts\\src\\lib\\data-access-accounts.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.UpdateAccount, AccountingPermissions.CreateAccount",
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/accounts.png"
+            ]
+        },
+        {
+            "id": "allotmentDetails",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\journaling\\data-access-allotment-details\\src\\lib\\data-access-allotment-details.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "title": "allotmentDetails.footerActions.save",
+                    "peCyId": "allotment-submit"
+                },
+                {
+                    "title": "Add",
+                    "peCyId": "allotment-add"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/allotmentDetails.png"
+            ]
+        },
+        {
+            "id": "allotmentEntries",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\journaling\\data-access-allotment-entries\\src\\lib\\data-access-allotment-entries.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "peCyId": "allotment-new-allotment",
+                    "title": "New Allotment"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/allotmentEntries.png"
+            ]
+        },
+        {
+            "id": "bulkTrustToOffice",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\journaling\\data-access-bulk-trust-office-transfer\\src\\lib\\data-access-bulk-trust-office-transfer.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "title": "Export"
+                },
+                {
+                    "peCyId": "bulk-trust-office-transfer-transfer",
+                    "title": "Transfer"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/bulkTrustToOffice.png"
+            ]
+        },
+        {
+            "id": "closeJournal",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\journaling\\data-access-close-journal\\src\\lib\\data-access-close-journal.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "peCyId": "close-journal-save"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/closeJournal.png"
+            ]
+        },
+        {
+            "id": "creditNoteSetup",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\journaling\\data-access-issue-credit-note\\src\\lib\\data-access-issue-credit-note.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.IssueCreditNote",
+            "footerActions": [
+                {
+                    "peCyId": "credit-note-issue",
+                    "title": "Issue"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/creditNoteSetup.png"
+            ]
+        },
+        {
+            "id": "issueSupplierCreditNote",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\journaling\\data-access-issue-supplier-credit-note\\src\\lib\\data-access-issue-supplier-credit-note.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.PostSupplierCredit",
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/issueSupplierCreditNote.png"
+            ]
+        },
+        {
+            "id": "journalDetails",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\journaling\\data-access-journal-details\\src\\lib\\data-access-journal-details.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "peCyId": "journal-details-disable",
+                    "title": "journalDetails.footerActions.disable"
+                },
+                {
+                    "peCyId": "journal-details-enable",
+                    "title": "journalDetails.footerActions.enable"
+                },
+                {
+                    "peCyId": "journal-details-save",
+                    "title": "journalDetails.footerActions.save"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": {
+                "title": "journalDetails.actionCards.lockJournal.title"
+            },
+            "screenshots": [
+                "./assets/images/core.spec.ts/journalDetails.png"
+            ]
+        },
+        {
+            "id": "Journaling",
+            "usingSidePanelKey": false,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\journaling\\data-access-journaling\\src\\lib\\data-access-journaling.state.ts",
+            "guideId": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": []
+        },
+        {
+            "id": "ledgerEntries",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\journaling\\data-access-ledger-entries\\src\\lib\\data-access-ledger-entries.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.FindLedgerEntries",
+            "footerActions": [],
+            "quickActions": [
+                {
+                    "peCyId": "ledger-entries-print",
+                    "title": "ledgerEntries.footerActions.printLedger"
+                },
+                {
+                    "peCyId": "ledger-entries-matter-to-matter",
+                    "title": "ledgerEntries.footerActions.matterToMatter"
+                },
+                {
+                    "peCyId": "ledger-entries-office-to-trust",
+                    "title": "ledgerEntries.footerActions.officeToTrust"
+                },
+                {
+                    "peCyId": "ledger-entries-trust-to-office",
+                    "title": "ledgerEntries.footerActions.trustToOffice"
+                },
+                {
+                    "peCyId": "ledger-entries-credit-note",
+                    "title": "ledgerEntries.footerActions.creditNote"
+                },
+                {
+                    "peCyId": "ledger-entries-allotments",
+                    "title": "ledgerEntries.footerActions.allotments"
+                },
+                {
+                    "peCyId": "ledger-entries-receipt",
+                    "title": "ledgerEntries.footerActions.receipt"
+                },
+                {
+                    "peCyId": "ledger-entries-payment",
+                    "title": "ledgerEntries.footerActions.payment"
+                }
+            ],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/ledgerEntries.png"
+            ]
+        },
+        {
+            "id": "m2mtransfer",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\journaling\\data-access-matter-to-matter-transfer\\src\\lib\\data-access-matter-to-matter-transfer.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.PostLedgerTransfer",
+            "footerActions": [
+                {
+                    "peCyId": "matter-to-matter-transfer-request-toggle",
+                    "title": "Request"
+                },
+                {
+                    "peCyId": "matter-to-matter-transfer-transfer",
+                    "title": "Transfer"
+                },
+                {
+                    "peCyId": "matter-to-matter-transfer-request",
+                    "title": "Request"
+                },
+                {
+                    "peCyId": "matter-to-matter-transfer-cancel",
+                    "title": "Cancel"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/m2mtransfer.png"
+            ]
+        },
+        {
+            "id": "officeTrustTransfer",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\journaling\\data-access-office-to-trust-transfer\\src\\lib\\data-access-office-to-trust-transfer.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.PostTrustOfficeTransfer",
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/officeTrustTransfer.png"
+            ]
+        },
+        {
+            "id": "postJournalDetail",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\journaling\\data-access-post-journal-detail\\src\\lib\\data-access-post-journal-detail.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.PostJournal",
+            "footerActions": [
+                {
+                    "peCyId": "post-journal-add-item",
+                    "title": "postJournalDetail.footerActions.addItem"
+                },
+                {
+                    "peCyId": "post-journal-post-post-and-new",
+                    "title": "postJournalDetail.footerActions.postAndNew"
+                },
+                {
+                    "peCyId": "post-journal-post",
+                    "title": "postJournalDetail.footerActions.post"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/postJournalDetail.png"
+            ]
+        },
+        {
+            "id": "tx",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\journaling\\data-access-transaction-detail\\src\\lib\\data-access-transaction-detail.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "peCyId": "transaction-detail-reverse",
+                    "title": "Reverse"
+                },
+                {
+                    "title": "Print"
+                },
+                {
+                    "title": "Email"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/tx.png"
+            ]
+        },
+        {
+            "id": "transactions",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\journaling\\data-access-transactions\\src\\lib\\data-access-transactions.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.GetTransaction, AccountingPermissions.FindTransactions, AccountingPermissions.FindLedgers, AccountingPermissions.FindLedgerEntries, AccountingPermissions.FindJournalEntries",
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/transactions.png"
+            ]
+        },
+        {
+            "id": "trustToOfficeTransferHistory",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\journaling\\data-access-trust-office-transfer-history\\src\\lib\\data-access-trust-office-transfer-history.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/trustToOfficeTransferHistory.png"
+            ]
+        },
+        {
+            "id": "trustToOffice",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\journaling\\data-access-trust-to-office-transfer\\src\\lib\\data-access-trust-to-office-transfer.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.PostTrustOfficeTransfer",
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/trustToOffice.png"
+            ]
+        },
+        {
+            "id": "unlinkReceipt",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\journaling\\data-access-unlink-receipt\\src\\lib\\data-access-unlink-receipt.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.UnlinkReceipt",
+            "footerActions": [
+                {
+                    "peCyId": "unlink-receipt-unlink",
+                    "title": "unlinkReceipt.footerActions.save"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/unlinkReceipt.png"
+            ]
+        },
+        {
+            "id": "manageRoles",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\manage-roles\\data-access-manage-roles\\src\\lib\\data-access-manage-roles.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/manageRoles.png"
+            ]
+        },
+        {
+            "id": "matterTypes",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\matter-type\\data-access-matter-type\\src\\lib\\data-access-matter-type.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.CreateMatterType, AccountingPermissions.UpdateMatterType",
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/matterTypes.png"
+            ]
+        },
+        {
+            "id": "matterCmas",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\matters\\data-access-cma-accounts\\src\\lib\\data-access-cma-accounts.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/matterCmas.png"
+            ]
+        },
+        {
+            "id": "cmaDetail",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\matters\\data-access-cma-detail\\src\\lib\\data-access-cma-detail.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/cmaDetail.png"
+            ]
+        },
+        {
+            "id": "cmaEntries",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\matters\\data-access-cma-entries\\src\\lib\\data-access-cma-entries.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/cmaEntries.png"
+            ]
+        },
+        {
+            "id": "cmaPostTransaction",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\matters\\data-access-cma-post-transaction\\src\\lib\\data-access-cma-post-transaction.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/cmaPostTransaction.png"
+            ]
+        },
+        {
+            "id": "cmaTransactionDetails",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\matters\\data-access-cma-transaction-details\\src\\lib\\data-access-cma-transaction-details.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.PostCmaPayment, AccountingPermissions.PostCmaReceipt",
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": []
+        },
+        {
+            "id": "cmaTransactions",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\matters\\data-access-cma-transactions\\src\\lib\\data-access-cma-transactions.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.FindCmaTransactions, AccountingPermissions.GetCmaTransaction",
+            "footerActions": [
+                {
+                    "peCyId": "cma-transactions-new-transactions",
+                    "title": "cma-transactions.footerActions.newTransaction"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/cmaTransactions.png"
+            ]
+        },
+        {
+            "id": "matterDashboard",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\matters\\data-access-matter-dashboard\\src\\lib\\data-access-matter-dashboard.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [
+                {
+                    "peCyId": "matter-setup",
+                    "title": "matterDashboard.quickActions.setup"
+                },
+                {
+                    "peCyId": "matter-permissions",
+                    "title": "matterDashboard.quickActions.Permissions"
+                },
+                {
+                    "peCyId": "matter-client-details",
+                    "title": "matterDashboard.quickActions.ClientDetails"
+                },
+                {
+                    "peCyId": "matter-work-items",
+                    "title": "matterDashboard.quickActions.workItems"
+                },
+                {
+                    "peCyId": "matter-menu-disbursements",
+                    "title": "matterDashboard.quickActions.disbursements"
+                },
+                {
+                    "peCyId": "matter-menu-invoices-actions",
+                    "title": "matterDashboard.quickActions.invoicesActions"
+                },
+                {
+                    "peCyId": "matter-menu-invoices",
+                    "title": "matterDashboard.quickActions.invoices"
+                },
+                {
+                    "peCyId": "matter-menu-invoices-new",
+                    "title": "matterDashboard.quickActions.invoicesAdd"
+                },
+                {
+                    "peCyId": "matter-menu-matter-plan",
+                    "title": "matterDashboard.quickActions.matterPlan"
+                },
+                {
+                    "peCyId": "matter-menu-pre-bill",
+                    "title": "matterDashboard.quickActions.preBill"
+                },
+                {
+                    "peCyId": "matter-menu-cma",
+                    "title": "matterDashboard.quickActions.cma"
+                },
+                {
+                    "peCyId": "matter-menu-allotments",
+                    "title": "matterDashboard.quickActions.allotments"
+                },
+                {
+                    "peCyId": "matter-menu-power-estates",
+                    "title": "matterDashboard.quickActions.powersAndEstates"
+                },
+                {
+                    "peCyId": "matter-menu-office-ledger",
+                    "title": "matterDashboard.quickActions.officeLedger"
+                },
+                {
+                    "peCyId": "matter-menu-office-ledger-entries",
+                    "title": "matterDashboard.quickActions.ledgerEntries"
+                },
+                {
+                    "peCyId": "matter-menu-office-matter-to-matter",
+                    "title": "matterDashboard.quickActions.officeMatterToMatter"
+                },
+                {
+                    "peCyId": "matter-menu-office-to-trust",
+                    "title": "matterDashboard.quickActions.officeToTrust"
+                },
+                {
+                    "peCyId": "matter-office-receipt",
+                    "title": "matterDashboard.quickActions.receiptNew"
+                },
+                {
+                    "peCyId": "matter-menu-trust-ledger",
+                    "title": "matterDashboard.quickActions.trustLedger"
+                },
+                {
+                    "peCyId": "matter-menu-trust-ledger-item"
+                },
+                {
+                    "peCyId": "matter-menu-trust-ledger-item-view-entries",
+                    "title": "matterDashboard.quickActions.ledgerEntries"
+                },
+                {
+                    "peCyId": "matter-menu-trust-matter-to-matter-transfer",
+                    "title": "matterDashboard.quickActions.trustMatterToMatter"
+                },
+                {
+                    "peCyId": "matter-menu-trust-to-office",
+                    "title": "matterDashboard.quickActions.trustToOffice"
+                },
+                {
+                    "peCyId": "matter-trust-receipt",
+                    "title": "matterDashboard.quickActions.receiptNew"
+                },
+                {
+                    "peCyId": "matter-menu-request-payment",
+                    "title": "matterDashboard.quickActions.requestPayment"
+                },
+                {
+                    "peCyId": "matter-menu-request-matter-to-matter",
+                    "title": "matterDashboard.quickActions.requestMatterToMatterTransfer"
+                }
+            ],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/matterDashboard.png"
+            ]
+        },
+        {
+            "id": "matterSetup",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\matters\\data-access-matter-details\\src\\lib\\data-access-matter-details.state.ts",
+            "guideId": null,
+            "permissions": "securableEntityMap.matter.readPermissions, securableEntityMap.matter, securableEntityMap.matter.writePermissions, securableEntityMap.matter",
+            "footerActions": [
+                {
+                    "title": "Save & Close",
+                    "peCyId": "save-close-matter-details"
+                },
+                {
+                    "title": "Save",
+                    "peCyId": "matter-save"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": {
+                "title": "Close Matter"
+            },
+            "screenshots": [
+                "./assets/images/core.spec.ts/matterSetup.png"
+            ]
+        },
+        {
+            "id": "matterPlan",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\matters\\data-access-matter-plan\\src\\lib\\data-access-matter-plan.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "peCyId": "matter-plan-apply",
+                    "title": "matterPlan.footerActions.applyTemplate"
+                },
+                {
+                    "peCyId": "matter-plan-add-stage",
+                    "title": "matterPlan.footerActions.addStage"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/matterPlan.png"
+            ]
+        },
+        {
+            "id": "matterPlanStageDetails",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\matters\\data-access-matter-plan-stage-details\\src\\lib\\data-access-matter-plan-stage-details.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.AddMatterBillingStage, AccountingPermissions.UpdateMatterBillingStage, AccountingPermissions.DeleteMatterBillingStage",
+            "footerActions": [
+                {
+                    "peCyId": "matter-plan-stage-details-save",
+                    "title": "matterPlanStageDetails.footerActions.save"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/matterPlanStageDetails.png"
+            ]
+        },
+        {
+            "id": "matters",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\matters\\data-access-matters\\src\\lib\\data-access-matters.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/matters.png"
+            ]
+        },
+        {
+            "id": "reverseCmaTransaction",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\matters\\data-access-reverse-cma-transaction\\src\\lib\\data-access-reverse-cma-transaction.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "title": "Reverse"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/reverseCmaTransaction.png"
+            ]
+        },
+        {
+            "id": "notificationHistory",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\notification-history\\data-access-notification-history\\src\\lib\\data-access-notification-history.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "title": "notificationHistory.footerActions.close"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/notificationHistory.png"
+            ]
+        },
+        {
+            "id": "notificationHistoryDetails",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\notification-history\\data-access-notification-history-details\\src\\lib\\data-access-notification-history-details.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "title": "notificationHistoryDetails.footerActions.close"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/notificationHistoryDetails.png"
+            ]
+        },
+        {
+            "id": "batchPayPurchase",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\purchases\\data-access-batch-pay-purchase\\src\\lib\\data-access-batch-pay-purchase.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "title": "Use supplier credit"
+                },
+                {
+                    "peCyId": "batch-purchase-pay",
+                    "title": "Pay"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/batchPayPurchase.png"
+            ]
+        },
+        {
+            "id": "purchasePayWithCredit",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\purchases\\data-access-pay-purchase-with-credit\\src\\lib\\data-access-pay-purchase-with-credit.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "peCyId": "pay-purchase-credit-save",
+                    "title": "payPurchaseWithCredit.save"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/purchasePayWithCredit.png"
+            ]
+        },
+        {
+            "id": "purchaseDetails",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\purchases\\data-access-purchase-details\\src\\lib\\data-access-purchase-details.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "peCyId": "purchase-details-add",
+                    "title": "Add"
+                },
+                {
+                    "peCyId": "purchase-add-line",
+                    "title": "Add Line"
+                },
+                {
+                    "peCyId": "purchase-add-anticipated",
+                    "title": null
+                },
+                {
+                    "title": ""
+                },
+                {
+                    "title": "Tax Inclusive"
+                },
+                {
+                    "title": "Notify"
+                },
+                {
+                    "title": "Post and New"
+                },
+                {
+                    "peCyId": "puchase-footer-post",
+                    "title": "Post"
+                },
+                {
+                    "title": "Create Purchase Order",
+                    "peCyId": "create-purchase-order"
+                },
+                {
+                    "title": "Save"
+                }
+            ],
+            "quickActions": [
+                {
+                    "peCyId": "purchase-quick-actions-templates",
+                    "title": "Templates"
+                },
+                {
+                    "peCyId": "purchase-quick-actions-create-template",
+                    "title": "Create Template"
+                },
+                {
+                    "peCyId": "purchase-quick-actions-apply-template",
+                    "title": "Apply Template"
+                }
+            ],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/purchaseDetails.png"
+            ]
+        },
+        {
+            "id": "purchases",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\purchases\\data-access-purchases\\src\\lib\\data-access-purchases.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/purchases.png"
+            ]
+        },
+        {
+            "id": "RegisterOfPower",
+            "usingSidePanelKey": false,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\register-of-power\\data-access-register-of-power\\src\\lib\\data-access-register-of-power.state.ts",
+            "guideId": null,
+            "footerActions": [
+                {
+                    "peCyId": "register-of-power-add",
+                    "title": "registerOfPower.footerActions.add"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": []
+        },
+        {
+            "id": "m2mTransferRequests",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\requisitions\\data-access-ledger-transfer-requests\\src\\lib\\data-access-ledger-transfer-requests.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/m2mTransferRequests.png"
+            ]
+        },
+        {
+            "id": "paymentRequests",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\requisitions\\data-access-payment-requests\\src\\lib\\data-access-payment-requests.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/paymentRequests.png"
+            ]
+        },
+        {
+            "id": "PurchaseRequests",
+            "usingSidePanelKey": false,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\requisitions\\data-access-purchase-requests\\src\\lib\\data-access-purchase-requests.state.ts",
+            "guideId": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": []
+        },
+        {
+            "id": "taskScheduler",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\scheduler\\data-access-scheduler\\src\\lib\\data-access-scheduler.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": []
+        },
+        {
+            "id": "billingPlans",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\settings\\data-access-billing-plans\\src\\lib\\data-access-billing-plans.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.CreateBillingPlan, AccountingPermissions.UpdateBillingPlan, AccountingPermissions.DeleteBillingPlan",
+            "footerActions": [
+                {
+                    "peCyId": "billing-plan-add",
+                    "title": "billingPlans.footerActions.add"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/billingPlans.png"
+            ]
+        },
+        {
+            "id": "billingStageDetails",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\settings\\data-access-billing-stage-details\\src\\lib\\data-access-billing-stage-details.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.AddBillingStage, AccountingPermissions.DeleteBillingStage, AccountingPermissions.UpdateBillingStage",
+            "footerActions": [
+                {
+                    "peCyId": "billing-stage-detail-save",
+                    "title": "billingStageDetail.footerActions.save"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/billingStageDetails.png"
+            ]
+        },
+        {
+            "id": "billingStages",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\settings\\data-access-billing-stages\\src\\lib\\data-access-billing-stages.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.AddBillingStage, AccountingPermissions.DeleteBillingStage, AccountingPermissions.UpdateBillingStage",
+            "footerActions": [
+                {
+                    "peCyId": "billing-stages-add",
+                    "title": "billingStages.add"
+                },
+                {
+                    "title": "billingStages.delete"
+                },
+                {
+                    "title": "billingStages.restore"
+                },
+                {
+                    "title": "billingStages.showDeleted"
+                },
+                {
+                    "title": "billingStages.save"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/billingStages.png"
+            ]
+        },
+        {
+            "id": "budgetEntries",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\settings\\data-access-budget-entries\\src\\lib\\data-access-budget-entries.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "peCyId": "budget-entries-add-row",
+                    "title": "budgetSets.footerActions.addRow"
+                }
+            ],
+            "quickActions": [
+                {
+                    "peCyId": "budget-entries-import",
+                    "title": "budgetSets.footerActions.import"
+                },
+                {
+                    "peCyId": "budget-entries-export",
+                    "title": "budgetSets.footerActions.export"
+                }
+            ],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/budgetEntries.png"
+            ]
+        },
+        {
+            "id": "budgetSetDetails",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\settings\\data-access-budget-set-details\\src\\lib\\data-access-budget-set-details.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "peCyId": "budget-set-details-save",
+                    "title": "budgetSetDetails.footerActions.save"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/budgetSetDetails.png"
+            ]
+        },
+        {
+            "id": "budgets",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\settings\\data-access-budgets\\src\\lib\\data-access-budgets.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "peCyId": "budget-set-create",
+                    "title": "Create Budget Set"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/budgets.png"
+            ]
+        },
+        {
+            "id": "checklistDetails",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\settings\\data-access-checklist-details\\src\\lib\\data-access-checklist-details.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "peCyId": "checklist-details-add-item",
+                    "title": "Add Item"
+                },
+                {
+                    "peCyId": "checklist-details-save",
+                    "title": "Save"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/checklistDetails.png"
+            ]
+        },
+        {
+            "id": "checklists",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\settings\\data-access-checklists\\src\\lib\\data-access-checklists.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "peCyId": "checklist-add",
+                    "title": "Add Checklist"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/checklists.png"
+            ]
+        },
+        {
+            "id": "disbursementCodeDetail",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\settings\\data-access-disbursement-code-details\\src\\lib\\data-access-disbursement-code-details.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.CreateDisbursementCode, AccountingPermissions.UpdateDisbursementCode, AccountingPermissions.DeleteDisbursementCode",
+            "footerActions": [
+                {
+                    "peCyId": "disbursement-code-detail-save",
+                    "title": "disbursementCodeDetails.footerActions.save"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/disbursementCodeDetail.png"
+            ]
+        },
+        {
+            "id": "disbursementCodes",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\settings\\data-access-disbursement-codes\\src\\lib\\data-access-disbursement-codes.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.CreateDisbursementCode, AccountingPermissions.UpdateDisbursementCode, AccountingPermissions.DeleteDisbursementCode, AccountingPermissions.GetDisbursementCode, AccountingPermissions.FindDisbursementCodes",
+            "footerActions": [
+                {
+                    "peCyId": "disbursement-codes-apply-all",
+                    "title": "disbursementCodes.footerActions.applyAll"
+                },
+                {
+                    "peCyId": "disbursement-codes-create",
+                    "title": "disbursementCodes.footerActions.create"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/disbursementCodes.png"
+            ]
+        },
+        {
+            "id": "divisionDetails",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\settings\\data-access-division-details\\src\\lib\\data-access-division-details.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.CreateDivision, AccountingPermissions.UpdateDivision, AccountingPermissions.LockDivision, AccountingPermissions.ImportDivision, AccountingPermissions.UnlockDivision",
+            "footerActions": [
+                {
+                    "title": "divisionDetails.footerActions.save",
+                    "peCyId": "divisions-update"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/divisionDetails.png"
+            ]
+        },
+        {
+            "id": "divisions",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\settings\\data-access-divisions\\src\\lib\\data-access-divisions.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.CreateDivision, AccountingPermissions.UpdateDivision, AccountingPermissions.LockDivision, AccountingPermissions.ImportDivision, AccountingPermissions.UnlockDivision",
+            "footerActions": [
+                {
+                    "title": "divisions.footerActions.new"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/divisions.png"
+            ]
+        },
+        {
+            "id": "feeTargets",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\settings\\data-access-fee-targets\\src\\lib\\data-access-fee-targets.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/feeTargets.png"
+            ]
+        },
+        {
+            "id": "matterBillingDefaults",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\settings\\data-access-matter-billing-defaults\\src\\lib\\data-access-matter-billing-defaults.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.SetMatterBillingBasis",
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/matterBillingDefaults.png"
+            ]
+        },
+        {
+            "id": "paymentMethods",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\settings\\data-access-payment-methods\\src\\lib\\data-access-payment-methods.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/paymentMethods.png"
+            ]
+        },
+        {
+            "id": "PostingTemplateDetail",
+            "usingSidePanelKey": false,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\settings\\data-access-posting-template-detail\\src\\lib\\data-access-posting-template-detail.state.ts",
+            "guideId": null,
+            "footerActions": [
+                {
+                    "peCyId": "posting-template-save",
+                    "title": "posingTemplate.footerActions.save"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": []
+        },
+        {
+            "id": "postingTemplates",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\settings\\data-access-posting-templates\\src\\lib\\data-access-posting-templates.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.CreatePostingTemplate, AccountingPermissions.UpdatePostingTemplate, AccountingPermissions.DeletePostingTemplate",
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/postingTemplates.png"
+            ]
+        },
+        {
+            "id": "featureRateSets",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\settings\\data-access-rate-sets\\src\\lib\\data-access-rate-sets.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.PublishRateSet",
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/featureRateSets.png"
+            ]
+        },
+        {
+            "id": "statementSettings",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\settings\\data-access-statement-settings\\src\\lib\\data-access-statement-settings.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/statementSettings.png"
+            ]
+        },
+        {
+            "id": "abaConfig",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\shared\\data-access-aba-config\\src\\lib\\data-access-aba-config.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/abaConfig.png"
+            ]
+        },
+        {
+            "id": "AccountChequeSequences",
+            "usingSidePanelKey": false,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\shared\\data-access-account-cheque-sequences\\src\\lib\\data-access-account-cheque-sequences.state.ts",
+            "guideId": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": []
+        },
+        {
+            "id": "allocationTargets",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\shared\\data-access-allocation-targets\\src\\lib\\data-access-allocation-targets.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/allocationTargets.png"
+            ]
+        },
+        {
+            "id": "bankAccountConfig",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\shared\\data-access-bank-account-config\\src\\lib\\data-access-bank-account-config.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/bankAccountConfig.png"
+            ]
+        },
+        {
+            "id": "dataChange",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\shared\\data-access-data-change\\src\\lib\\data-access-data-change.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.AllPermissions",
+            "footerActions": [
+                {
+                    "title": "Apply",
+                    "peCyId": "data-change-apply"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/dataChange.png"
+            ]
+        },
+        {
+            "id": "paymentMethod",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\shared\\data-access-payment-method\\src\\lib\\data-access-payment-method.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/paymentMethod.png"
+            ]
+        },
+        {
+            "id": "receiptMethod",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\shared\\data-access-receipt-method\\src\\lib\\data-access-receipt-method.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/receiptMethod.png"
+            ]
+        },
+        {
+            "id": "sequenceNumber",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\shared\\data-access-sequence-number\\src\\lib\\data-access-sequence-number.state.ts",
+            "guideId": null,
+            "permissions": "AccountingPermissions.CreateSequence, AccountingPermissions.UpdateSequence",
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/sequenceNumber.png"
+            ]
+        },
+        {
+            "id": "taxCodes",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\tax-code\\data-access-tax-code\\src\\lib\\data-access-tax-code.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/taxCodes.png"
+            ]
+        },
+        {
+            "id": "teams",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\teams\\data-access-teams\\src\\lib\\data-access-teams.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/teams.png"
+            ]
+        },
+        {
+            "id": "uploadAttachment",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\upload-attachment\\data-access-upload-attachment\\src\\lib\\data-access-upload-attachment.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/uploadAttachment.png"
+            ]
+        },
+        {
+            "id": "Notifications",
+            "usingSidePanelKey": false,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\util\\data-access-notifications\\src\\lib\\data-access-notifications.state.ts",
+            "guideId": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": []
+        },
+        {
+            "id": "workItem",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\work-items\\data-access-work-item-details\\src\\lib\\data-access-work-item-details.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/workItem.png"
+            ]
+        },
+        {
+            "id": "workItems",
+            "usingSidePanelKey": true,
+            "usingFeatureState": false,
+            "path": "libs\\pe-ui\\work-items\\data-access-work-items\\src\\lib\\data-access-work-items.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [
+                {
+                    "peCyId": "work-item-timer-item-list-add",
+                    "title": "workItems.quickActions.add"
+                },
+                {
+                    "title": "workItems.quickActions.finalise"
+                },
+                {
+                    "title": "workItems.quickActions.unfinalise"
+                },
+                {
+                    "title": "workItems.quickActions.writeOff"
+                },
+                {
+                    "title": "workItems.quickActions.unWriteOff"
+                }
+            ],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/workItems.png"
+            ]
+        },
+        {
+            "id": "scheduleDetails",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\pe-ui\\workflow\\data-access-schedule-details\\src\\lib\\data-access-schedule-details.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [
+                {
+                    "title": "scheduleDetails.footerActions.apply"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": [
+                "./assets/images/core.spec.ts/scheduleDetails.png"
+            ]
+        },
+        {
+            "id": "smokeball_matterSetup",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\smokeball\\matters\\data-access-matter-details\\src\\lib\\data-access-matter-details.state.ts",
+            "guideId": null,
+            "footerActions": [
+                {
+                    "peCyId": "matter-setup-save",
+                    "title": "matterSetup.footerActions.save"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": []
+        },
+        {
+            "id": "smokeball_workItem",
+            "usingSidePanelKey": true,
+            "usingFeatureState": true,
+            "path": "libs\\smokeball\\work-items\\data-access-work-item-details\\src\\lib\\data-access-work-item-details.state.ts",
+            "guideId": null,
+            "footerActions": [
+                {
+                    "title": "workItem.footerActions.unfinalise",
+                    "peCyId": "work-item-details-unfinalise"
+                },
+                {
+                    "title": "workItem.footerActions.writeOff",
+                    "peCyId": "work-item-details-write-off"
+                },
+                {
+                    "title": "workItem.footerActions.unWriteOff",
+                    "peCyId": "work-item-details-unwrite-off"
+                },
+                {
+                    "title": "workItem.footerActions.delete",
+                    "peCyId": "work-item-details-delete"
+                },
+                {
+                    "peCyId": "work-item-details-save",
+                    "title": "workItem.footerActions.save"
+                },
+                {
+                    "peCyId": "work-item-save-finalise",
+                    "title": "workItem.footerActions.saveAndFinalise"
+                },
+                {
+                    "title": "workItem.footerActions.saveAndTimer"
+                },
+                {
+                    "title": "workItem.footerActions.saveAndNew"
+                },
+                {
+                    "peCyId": "work-item-save-close",
+                    "title": "workItem.footerActions.saveAndClose"
+                }
+            ],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": []
+        },
+        {
+            "id": "statementRun",
+            "usingSidePanelKey": false,
+            "usingFeatureState": false,
+            "path": "libs\\statement-run-api\\src\\lib\\statement-run.state.ts",
+            "guideId": null,
+            "permissions": null,
+            "footerActions": [],
+            "quickActions": [],
+            "actionCards": [],
+            "screenshots": []
+        }
+    ],
+    "issues": [
+        {
+            "title": "State used in multiple screens",
+            "values": [
+                "null: [acls, activities, activitiesGrid, billingRun, statementRun, reportViewer, multiReportViewer, saveCustomReport, scheduleCustomReport, multiReportViewer, permissions, rateSet, taxCodes, unfinaliseInvoice, cancelInvoice, notAuthorised, manageRolesDetails, featureRateSets, manageTemplates, updateTemplate, reprintInvoice, paymentMethodDetails]",
+                "'@pe/pe-ui/journaling/data-access-account-detail': [newAccount, editAccount]",
+                "'@pe/pe-ui/invoices/data-access-invoice-detail': [invoiceSetup, invoiceItems]",
+                "'@pe/pe-ui/settings/data-access-fee-targets': [feeTargetSetDetails, feeTargets]",
+                "'@pe/pe-ui/journaling/data-access-journaling': [transactions, journalAccountRoles, editAccountRole]",
+                "'@pe/pe-ui/matter-type/data-access-matter-type': [matterTypes, matterTypeDetails]",
+                "'@pe/pe-ui/teams/data-access-teams': [teams, teamsDetail]",
+                "'@pe/pe-ui/register-of-power/data-access-register-of-power': [registerOfPower, registerItemDetails]"
+            ]
+        },
+        {
+            "title": "Oprhaned Feature Key",
+            "subTitle": "Key exists in feature key list but implemented in an integration file",
+            "values": [
+                "account",
+                "bankEntryAction",
+                "emailReport",
+                "task-scheduler"
+            ]
+        }
+    ],
+    "exclusions": [
+        {
+            "id": "dialog",
+            "path": "libs\\dialog\\src\\lib\\state\\dialog.state.ts"
+        },
+        {
+            "id": "events",
+            "path": "libs\\events\\src\\lib\\+state\\events\\events.state.ts"
+        },
+        {
+            "id": "RecentDocuments",
+            "path": "libs\\pe-ui\\documents\\data-access-recent-documents\\src\\lib\\data-access-recent-documents.state.ts"
+        },
+        {
+            "id": "Forex",
+            "path": "libs\\pe-ui\\forex\\data-access-forex\\src\\lib\\data-access-forex.state.ts"
+        },
+        {
+            "id": "lookup",
+            "path": "libs\\pe-ui\\lookup\\data-access-lookup\\src\\lib\\data-access-lookup.state.ts"
+        },
+        {
+            "id": "QuickAdd",
+            "path": "libs\\pe-ui\\quick-add\\data-access-quick-add\\src\\lib\\data-access-quick-add.state.ts"
+        },
+        {
+            "id": "Reporting",
+            "path": "libs\\pe-ui\\reporting\\data-access-reporting\\src\\lib\\data-access-reporting.state.ts"
+        },
+        {
+            "id": "TodoList",
+            "path": "libs\\pe-ui\\shared\\data-access-todo-list\\src\\lib\\data-access-todo-list.state.ts"
+        },
+        {
+            "id": "Shell",
+            "path": "libs\\pe-ui\\shell\\data-access-shell\\src\\lib\\data-access-shell.state.ts"
+        },
+        {
+            "id": "E2eHelper",
+            "path": "libs\\pe-ui\\test\\data-access-e2e-helper\\src\\lib\\data-access-e2e-helper.state.ts"
+        },
+        {
+            "id": "BulkTrustOfficeWidget",
+            "path": "libs\\pe-ui\\widgets\\data-access-bulk-trust-office\\src\\lib\\data-access-bulk-trust-office.state.ts"
+        },
+        {
+            "id": "FocusWidget",
+            "path": "libs\\pe-ui\\widgets\\data-access-focus-widget\\src\\lib\\data-access-focus-widget.state.ts"
+        },
+        {
+            "id": "LockupAnalysis",
+            "path": "libs\\pe-ui\\widgets\\data-access-lockup-analysis\\src\\lib\\data-access-lockup-analysis.state.ts"
+        },
+        {
+            "id": "WidgetAgedReceivables",
+            "path": "libs\\pe-ui\\widgets\\data-access-widget-aged-receivables\\src\\lib\\data-access-widget-aged-receivables.state.ts"
+        },
+        {
+            "id": "WidgetDebtorDays",
+            "path": "libs\\pe-ui\\widgets\\data-access-widget-debtor-days\\src\\lib\\data-access-widget-debtor-days.state.ts"
+        },
+        {
+            "id": "search",
+            "path": "libs\\search-core\\src\\lib\\+state\\search.state.ts"
+        },
+        {
+            "id": "settings",
+            "path": "libs\\settings-api\\src\\lib\\state\\settings.state.ts"
+        },
+        {
+            "id": "signalr",
+            "path": "libs\\signalr-client\\src\\lib\\+state\\peapp.signalr.state.ts"
+        },
+        {
+            "id": "snackbar",
+            "path": "libs\\snackbar\\src\\lib\\state\\snack-bar.state.ts"
+        },
+        {
+            "id": "TestForm",
+            "path": "libs\\utilities\\forms\\util-form\\src\\lib\\sample-states\\test-form-form-card.state.ts"
+        },
+        {
+            "id": "TestForm",
+            "path": "libs\\utilities\\forms\\util-form\\src\\lib\\sample-states\\test-form-multiple-sections.state.ts"
+        },
+        {
+            "id": "TestForm",
+            "path": "libs\\utilities\\forms\\util-form\\src\\lib\\sample-states\\test-form-simple.state.ts"
+        },
+        {
+            "id": "sidePanel",
+            "path": "libs\\utilities\\side-panel\\data-access-side-panel\\src\\lib\\data-access-side-panel.state.ts"
+        },
+        {
+            "id": "browserTitle",
+            "path": "libs\\utilities\\util-browser-title\\src\\lib\\util-browser-title.state.ts"
+        }
+    ]
+}
